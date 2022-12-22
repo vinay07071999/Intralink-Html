@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            list-style: none;
+        }
+        .topic{
+            margin: 20px;
+            border: 1px solid black;
+            padding: 5px;
+        }
+        .topic:target{
+            background-color: black;
+            color: white;
+
+        }
+        ul{
+            display: flex;
+            list-style: none;
+        }
+        li{
+            margin: 20px;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        a:link{
+            color: green;
+        }
+        a:visited{
+            color: goldenrod;
+        }
+        a:active{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#html">HTML</a></li>
+        <li><a href="#css">CSS</a></li>
+        <li><a href="#javascript">JavaScript</a></li>
+        <li><a href="#jquery">JQuery</a></li>
+    </ul>
+    <div>
+        <div id="html" class="topic">
+            <h2>HTML</h2>
+            <p>It is a markup language.</p>
+        </div>
+        <div id="css" class="topic">
+             <h2>CSS</h2>
+             <p>It is Define style for HTML.</p>
+        </div>
+        <div id="Javascript" class="topic">
+            <h2>javascript</h2>
+            <p>It is handles client side interactions</p>
+        </div>
+        <div id="jquery" class="topic">
+            <h2>JQuery</h2>
+            <p>jQuery is a fast, small, and feature-rich JavaScript library.</p>
+        </div>
+    </div>
+</body>
+</html>
